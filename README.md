@@ -12,7 +12,7 @@
 * Створіть .env файл і додайте API-ключ: WEATHER_API_KEY=yourapikey
 
 ### 2. Запуск сервера:
-* Запустіть вбудований сервер: symfony serve
+* Запустіть вбудований сервер: symfony serve або php bin/console server:start
 
 # Пояснення:
 * Сервіс Weather:
