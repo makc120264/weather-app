@@ -1,3 +1,7 @@
+homepage:
+    path: /weather/{city}
+    controller: App\Controller\WeatherController::index
+
 controllers:
     resource:
         path: ../src/Controller/
