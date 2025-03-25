@@ -14,6 +14,24 @@
 ### 2. Запуск сервера:
 * Запустіть вбудований сервер: symfony serve або php bin/console server:start
 
+### 3. Виконання запиту:
+Виконайте запит
+{protocol}://{your-server-name}/weather/{city} у браузері.
+Наприклад:
+https://weather-app.loc/weather/Rom
+Після успішного виконання запиту має відобразитися щось схоже на:
+
+# Weather in Rome, Italy
+Temperature: 11.1°C
+
+Condition: Partly cloudy
+
+Humidity: 94%
+
+Wind Speed: 4.7 km/h
+
+Last updated: 2025-03-25 08:30
+
 # Пояснення:
 * Сервіс Weather:
   Відповідає за обробку API-запитів. Використовує Symfony HTTP Client для здійснення запитів.
